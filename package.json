@@ -1,14 +1,14 @@
 {
-  "name": "APPNAME",
+  "name": "royalheist",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @APPNAME/web dev",
-    "build": "pnpm --filter @APPNAME/web build",
-    "preview": "pnpm --filter @APPNAME/web preview",
-    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b",
-    "test": "pnpm --filter @APPNAME/web test"
+    "dev": "pnpm --filter @royalheist/web dev",
+    "build": "pnpm --filter @royalheist/web build",
+    "preview": "pnpm --filter @royalheist/web preview",
+    "typecheck": "pnpm --filter @royalheist/web exec tsc -b",
+    "test": "pnpm --filter @royalheist/web test"
   }
 }
